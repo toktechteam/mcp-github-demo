@@ -4,6 +4,15 @@
 An **MCP (Model Context Protocol) server** is a small, focused service that fetches context data for AI agents or LLMs.  
 Instead of embedding multiple integrations directly into the AI agent, MCP servers abstract these integrations.
 
+**MCP (Model Context Protocol) Server**
+Purpose:
+An MCP server is designed to act as a data/context provider for LLMs or AI agents. Instead of hardcoding multiple API integrations into the AI agent, MCP servers abstract this context.
+
+Example:
+One MCP server may fetch financial data from Yahoo Finance (Y-Finance).
+Another MCP server may pull issues from Jira.
+
+Future MCP servers could connect to GitHub, Confluence, Slack, etc.
 ---
 
 ## 2. Real-World Use Cases
